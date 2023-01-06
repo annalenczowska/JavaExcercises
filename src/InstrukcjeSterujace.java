@@ -49,7 +49,7 @@ public class InstrukcjeSterujace {
         int myScore = 60;
         int yourScore = 50;
 
-        int ourBestScore = myScore > yourScore ? myScore : yourScore;
+        int ourBestScore = myScore > yourScore ? myScore : yourScore;   //jeżeli myScore > yourScore podstaw myScore, w przeciwnym razie yourScore
         System.out.println(ourBestScore);
 
 
