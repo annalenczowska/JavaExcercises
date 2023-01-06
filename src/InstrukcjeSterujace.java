@@ -52,6 +52,23 @@ public class InstrukcjeSterujace {
         int ourBestScore = myScore > yourScore ? myScore : yourScore;   //jeżeli myScore > yourScore podstaw myScore, w przeciwnym razie yourScore
         System.out.println(ourBestScore);
 
+        /* wyrażenia warunkowe:
+
+        && AND
+        || OR
+gdy oba warunki są spełnione, wyrażenie jest prawdziwe
+x == 1 && y == 1
+
+gdy przynajmniej jeden warunek jest spełniony, wyrażenie jest prawdziwe
+x == 1 || y == 1
+
+gdy oba warunki są spełnione, wyrażenie jest prawdziwe
+x > 1 && y > 1
+
+gdy przynajmniej jeden warunek jest spełniony, wyrażenie jest prawdziwe
+x == 1 || y == 1 || z == 1
+         */
+
 
 
     }

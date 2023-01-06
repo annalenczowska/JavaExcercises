@@ -3,7 +3,7 @@ public class PrzerywaniePętli {
         for (int i = 1; i < 10; i++) {
 
             if (i % 2 == 1) {   //liczba nieparzysta
-                continue;               //pętla przerywa działanie i przechodzi do następnego kroku
+                continue;               //pętla przerywa działanie i przechodzi do następnego kroku, jej wykonanie jest pominięte
             }
             System.out.print(i);
             System.out.print(" ");
@@ -19,6 +19,17 @@ public class PrzerywaniePętli {
             System.out.println(j);
             System.out.print(" ");
         }
+
+        /* for(String city : citiesList) {
+            if(city.equals("Warszawa")) {
+                break;
+            }
+            System.out.println(city);
+        }
+       Pętla zatrzyma się, jeśli na liście znajduje się Warszawa.
+       Natomiast jeśli Warszawa będzie pierwsza na liście, to pętla zakończy
+       się zanim cokolwiek się wyświetli.
+         */
 
         out:
         for (int k = 0; k < 10; k++) {         //out to nzwa etykiety zewnętrzej
